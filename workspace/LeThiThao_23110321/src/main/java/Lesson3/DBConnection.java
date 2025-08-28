@@ -6,12 +6,12 @@ import java.sql.ResultSet;
 
 public class DBConnection {
     // Thông tin cấu hình kết nối
-    private final String serverName = "LEVUHAI"; 
-    private final String dbName = "WebPrograming";        
+    private final String serverName = "THAO-PC\SQLEXPRESS"; 
+    private final String dbName = "LapTrinhWeb";        
     private final String portNumber = "1433";     
     private final String instance = "";            
-    private final String userID = "sa";           
-    private final String password = "123";  
+    private final String userID = "user";           
+    private final String password = "1234";  
 
 
     public Connection getConnection() throws Exception {
@@ -47,3 +47,4 @@ public class DBConnection {
     }
 
 }
+
