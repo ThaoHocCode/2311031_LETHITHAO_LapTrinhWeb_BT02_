@@ -8,7 +8,7 @@
     <artifactId>LeThiTHao_23110321</artifactId>
     <version>0.0.1-SNAPSHOT</version>
     <packaging>war</packaging>
-    <name>haile</name>
+    <name>lethao</name>
 
     <dependencies>
         <!-- Servlet API (Tomcat cung cấp, scope = provided) -->
@@ -79,3 +79,4 @@
         </plugins>
     </build>
 </project>
+
