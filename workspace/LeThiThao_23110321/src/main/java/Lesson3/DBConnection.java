@@ -6,7 +6,7 @@ import java.sql.ResultSet;
 
 public class DBConnection {
     // Thông tin cấu hình kết nối
-    private final String serverName = "THAO-PC\SQLEXPRESS"; 
+    private final String serverName = "THAO-PC\\SQLEXPRESS"; 
     private final String dbName = "LapTrinhWeb";        
     private final String portNumber = "1433";     
     private final String instance = "";            
@@ -47,4 +47,5 @@ public class DBConnection {
     }
 
 }
+
 
