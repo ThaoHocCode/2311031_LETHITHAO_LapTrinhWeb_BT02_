@@ -7,12 +7,12 @@ import java.sql.Statement;
 
 public class DBConnection 
 {
-    private final String serverName = "LEVUHAI"; 
-    private final String dbName = "WebPrograming";        
+    private final String serverName = "Thao-PC\SQLEXPRESS"; 
+    private final String dbName = "LapTrinhWeb";        
     private final String portNumber = "1433";     
     private final String instance = "";            
-    private final String userID = "sa";           
-    private final String password = "123";  
+    private final String userID = "user";           
+    private final String password = "1234";  
 
 
     public Connection getConnection() throws Exception {
@@ -26,3 +26,4 @@ public class DBConnection
     
 
 }
+
